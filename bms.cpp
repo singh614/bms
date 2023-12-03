@@ -8,7 +8,9 @@ class Account {
     double balance;
 
     public: 
-    double getBalance() {};
+    double getBalance() {
+        return balance;
+    };
     void deposit(double amount) {
         cout << "Deposit of INR " << amount << " is successfull\n";
     };
@@ -27,6 +29,8 @@ int main() {
     int choice;
     double amount;
     string user_id, user_pwd;
+
+    cout << "Program Compiled Successfully" << endl;
     
     return 0;
 }
